@@ -32,3 +32,6 @@ p-value : .39141234191e-05
 *1.4 What is the significance and interpretation of these results?*
 From the above data, at significance level of .05 and U-value which is not equal to half of product of number of values in data sets
 we can conclude that rain and fog does affect ridership. Hence, We can reject our null hypothesis.
+
+#### Section 2: Linear Regression
+*2.1 What approach did you use to compute the coefficients theta and produce prediction for ENTRIESn_hourly in your regression model?*
