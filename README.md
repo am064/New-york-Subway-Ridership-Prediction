@@ -11,4 +11,5 @@ Null Hypothesis H0 : The rain does not affect the ridrship in NYC Subway.
 Significance Level : .05 
 ```
 *1.2 Why is this statistical test applicable to the dataset? In particular, consider the assumptions that the test is making about the distribution of ridership in the two samples.*
+![Image of Yaktocat]()
 Mann-Whitney test is applicable beacause it does not assumes data to be normally distirbuted. Furthermore, this test is less susceptible to outliers in the data and even in case of normally distributed data it performs equivalent to welch's t-test. 
