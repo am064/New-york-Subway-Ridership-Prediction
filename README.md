@@ -29,4 +29,6 @@ With fog mean:  1154.65934963
 Mann-Whitney Test Parameter: 1189034717.5 
 p-value : .39141234191e-05
 ```
-From the above data we can at significance level of .05 it can be concluded that rain and fog does affect ridership in NYC subway and hence Null Hypothesis can be rejected.
+*1.4 What is the significance and interpretation of these results?*
+From the above data, at significance level of .05 and U-value which is not equal to half of product of number of values in data sets
+we can conclude that rain and fog does affect ridership. Hence, We can reject our null hypothesis.
