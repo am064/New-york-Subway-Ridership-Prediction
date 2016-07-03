@@ -36,7 +36,7 @@ we can conclude that rain and fog does affect ridership. Hence, We can reject ou
 #### Section 2: Linear Regression
 *2.1 What approach did you use to compute the coefficients theta and produce prediction for ENTRIESn_hourly in your regression model?*
 An unregularised linear regression model was used to predict ENTRIESn_hourly which is basically ridership in NYC subway. For computing parameter theta of the model gradient descent was used with alpha value of 0.1 and 200 iteratons.
-*2.2 What features (input variables) did you use in your model? Did you use any dummy variables as part of your features?*
+*2.2 What features (input variables) did you use in your model? Did you use any dummy variables as part of your features?*  
 The choice of features available from the dataset are as follows :
 * UNIT
 * Time of the day
