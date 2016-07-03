@@ -15,3 +15,18 @@ Significance Level : .05
 ![Image of Fog](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/fog_hist.png)  
 
 As can be seen from the figure,Mann-Whitney test is applicable beacause it does not assumes data to be normally distirbuted. Furthermore, this test is less susceptible to outliers in the data and even in case of normally distributed data it performs equivalent to welch's t-test. 
+
+*1.3 What results did you get from this statistical test? These should include the following numerical values: p-values, as well as the means for each of the two samples under test.*
+```javascript
+Without rain mean:  1090.27878015
+With rain mean:  1105.44637675
+Mann-Whitney Test Parameter: 1924409167.0
+p-value : .0386192688276
+```
+```javascript
+Without fog mean:  1083.44928209
+With fog mean:  1154.65934963
+Mann-Whitney Test Parameter: 1189034717.5 
+p-value : .39141234191e-05
+```
+From the above data we can at significance level of .05 it can be concluded that rain and fog does affect ridership in NYC subway and hence Null Hypothesis can be rejected.
