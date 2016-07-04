@@ -69,3 +69,5 @@ From the above table we can see that most of the data can be described by first 
 No non-dummy feature was used in the model.
 
 *2.6 What does this R2 value mean for the goodness of fit for your regression model? Do you think this linear model to predict ridership is appropriate for this dataset, given this R2 value?*
+The R2 value that the Linear Regression model gives is  0.513811132529.  
+![Image of Residual]()
