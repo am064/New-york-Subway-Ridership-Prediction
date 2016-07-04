@@ -4,21 +4,21 @@
 This project is done as a part of completion of Udacity's Introduction to Data Science course. In this project Newyork Subway data is taken and analyzed and a Linear Regression model is used to predict ridership in Newyork Subway. As a part of course completion following questions needs to be answered.
 
 ####Section 1: Statsitical Test
-*1.1 Which statistical test did you use to analyse the NYC subway data? Did you use a one-tail or a two-tail P value? What is the null hypothesis? What is your p-critical value?* 
+*_1.1_ Which statistical test did you use to analyse the NYC subway data? Did you use a one-tail or a two-tail P value? What is the null hypothesis? What is your p-critical value?* 
 
 The statistical test used was mann-whitney U test. As the features were not normally distributed and t-test assumes data to be normally distributed. Two-tail P values were used since it is not know which data set has higher or lower values.  
 ```javascript
 Null Hypothesis H0 : The rain or fog does not affect the ridrship in NYC Subway.  
 Significance Level : .05 
 ```
-*1.2 Why is this statistical test applicable to the dataset? In particular, consider the assumptions that the test is making about the distribution of ridership in the two samples.*  
+*_1.2_ Why is this statistical test applicable to the dataset? In particular, consider the assumptions that the test is making about the distribution of ridership in the two samples.*  
 
 ![Image of Yaktocat](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/rain_hist.png)  
 ![Image of Fog](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/fog_hist.png)  
 
 As can be seen from the figure,Mann-Whitney test is applicable beacause it does not assumes data to be normally distirbuted. Furthermore, this test is less susceptible to outliers in the data and even in case of normally distributed data it performs equivalent to welch's t-test. 
 
-*1.3 What results did you get from this statistical test? These should include the following numerical values: p-values, as well as the means for each of the two samples under test.*  
+*_1.3_ What results did you get from this statistical test? These should include the following numerical values: p-values, as well as the means for each of the two samples under test.*  
 
 ```javascript
 Without rain mean:  1090.27878015
@@ -32,20 +32,20 @@ With fog mean:  1154.65934963
 Mann-Whitney Test Parameter: 1189034717.5 
 p-value : .39141234191e-05
 ```
-*1.4 What is the significance and interpretation of these results?*  
+*_1.4_ What is the significance and interpretation of these results?*  
 
 From the above data, at significance level of .05 and U-value which is not equal to half of product of number of values in data sets
 we can conclude that rain and fog does affect ridership. Hence, We can reject our null hypothesis.
 
 #### Section 2: Linear Regression
-*2.1 What approach did you use to compute the coefficients theta and produce prediction for ENTRIESn_hourly in your regression model?*  
+*_2.1_ What approach did you use to compute the coefficients theta and produce prediction for ENTRIESn_hourly in your regression model?*  
 
 An unregularised linear regression model was used to predict ENTRIESn_hourly which is basically ridership in NYC subway. For computing parameter theta of the model gradient descent was used with alpha value of 0.1 and 70 iteratons.
-*2.2 What features (input variables) did you use in your model? Did you use any dummy variables as part of your features?*  
+*_2.2_ What features (input variables) did you use in your model? Did you use any dummy variables as part of your features?*  
 
 The features selected were UNIT, Hour and weekday. All the 3 features selected were used as dummy variables.
 
-*2.3 Why did you select these features in your model? We are looking for specific reasons that lead you to believe that the selected features will contribute to the predictive power of your model.*  
+*_2.3_ Why did you select these features in your model? We are looking for specific reasons that lead you to believe that the selected features will contribute to the predictive power of your model.*  
 
 The choice of features available from the dataset are as follows :
 * UNIT
@@ -73,16 +73,16 @@ Some of the features like Pressure details, Dew Details, Min/Max temperature can
 
 From the above table we can see that most of the data can be described by first three variable and rest variable does not contribute significantly to r-squared value. Hence the features selected are UNIT,HOUR and weekday.
 
-*2.4 What are the coefficients (or weights) of the non-dummy features in your linear regression model?*  
+*_2.4_ What are the coefficients (or weights) of the non-dummy features in your linear regression model?*  
 
 No non-dummy feature was used in the model.
 
-*2.5 What is your model’s R2 (coefficients of determination) value?*  
+*_2.5_ What is your model’s R2 (coefficients of determination) value?*  
 
   ```javascript
 R-squared value :  0.513811132529
 ```
-*2.6 What does this R2 value mean for the goodness of fit for your regression model? Do you think this linear model to predict ridership is appropriate for this dataset, given this R2 value?*  
+*_2.6_ What does this R2 value mean for the goodness of fit for your regression model? Do you think this linear model to predict ridership is appropriate for this dataset, given this R2 value?*  
 
 In general 2 basic components of any valid regression model are : 
 * Deterministic Component
