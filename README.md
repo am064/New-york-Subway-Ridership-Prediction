@@ -125,3 +125,10 @@ The linera regression model fails to explain high variance in the data, it also 
 
 *5.2 Do you have any other insight about the dataset that you would like to share with us?*
 
+Everything that was found during the analysis has already been discussed, if during further analysis something interesting comes will add it here.
+
+#### References
+
+*[Introduction to data science](https://classroom.udacity.com/courses/ud359/lessons/746169184239847/concepts/last-viewed)
+*[Introduction to Machine learning by Andrew NG](https://www.coursera.org/learn/machine-learning)
+*[minitab blog](http://blog.minitab.com/)
