@@ -91,3 +91,12 @@ And we want our model to be good enough to explain deterministic component of th
 ![Image of Residual](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/residual_histo.png)
 ![Image of Reidual](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/scatter_residual.png)  
 From the plot we can see that our residual are normally distributed and centered at zero. Since our error term is random it tells us that our model is good enough to describe deterministic portion of the response. Although the model wont give the exact values but it can give an approximate idea of ENTRIESn_hourly. Also, we know from the statsitical test that rain and fog does affect ridership but this adding them to features does not explain significant variance in the data. So for such case we might need bigger dataset so that model can properly incorporate effect of rain and fog on ridership. Also a non-linear model can be a good choice for such dataset.
+
+#### Section 3: Visualizations
+
+*3.1 Include and describe a visualization containing two histograms: one of ENTRIESn_hourly for rainy days and one of ENTRIESn_hourly for non-rainy days.*  
+
+Please Refer to Section 1.1.
+
+*3.2 Include and describe a freeform visualization.*  
+
