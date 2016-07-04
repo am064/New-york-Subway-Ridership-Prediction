@@ -1,5 +1,8 @@
 # Newyork Subway Ridership Prediction
 
+**By: Amit Somani**
+**Email : amit.somani641@gmail.com**
+
 ###Introduction
 This project is done as a part of completion of Udacity's Introduction to Data Science course. In this project Newyork Subway data is taken and analyzed and a Linear Regression model is used to predict ridership in Newyork Subway. As a part of course completion following questions needs to be answered.
 
