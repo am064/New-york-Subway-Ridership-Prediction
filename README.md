@@ -109,7 +109,7 @@ The plot has three prominent peaks showing maximum mean Entries in subway. Which
 
 ![Image of plot2](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/mean_hourly_per_day.png)
 
-![Image of plot3](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/conditions_entries.png)
+![Image of plot3](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/condition_entries.png)
 
 ####Section 4: Conclusion
 
@@ -128,8 +128,7 @@ The linera regression model fails to explain high variance in the data, it also 
 
 *5.2 Do you have any other insight about the dataset that you would like to share with us?*
 
-Everything that was found during the analysis has already been discussed, if during further analysis something interesting comes will add it here.
-
+In section 4 , plot2 shows that rush in NYC subway was significantly less compared to other days, which really surprises me and i would like to investigate more about it.Everything else that was found during the analysis has already been discussed, if during further analysis something interesting comes will add it here
 #### References
 
 [Introduction to data science](https://classroom.udacity.com/courses/ud359/lessons/746169184239847/concepts/last-viewed)  
