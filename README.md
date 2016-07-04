@@ -29,7 +29,7 @@ With fog mean:  1154.65934963
 Mann-Whitney Test Parameter: 1189034717.5 
 p-value : .39141234191e-05
 ```
-*1.4 What is the significance and interpretation of these results?*
+*1.4 What is the significance and interpretation of these results?*  
 From the above data, at significance level of .05 and U-value which is not equal to half of product of number of values in data sets
 we can conclude that rain and fog does affect ridership. Hence, We can reject our null hypothesis.
 
@@ -68,7 +68,15 @@ From the above table we can see that most of the data can be described by first 
 *2.4 What are the coefficients (or weights) of the non-dummy features in your linear regression model?*  
 No non-dummy feature was used in the model.
 
-*2.6 What does this R2 value mean for the goodness of fit for your regression model? Do you think this linear model to predict ridership is appropriate for this dataset, given this R2 value?*
-The R2 value that the Linear Regression model gives is  0.513811132529.  
+*2.5 What is your model’s R2 (coefficients of determination) value?*  
+  ```javascript
+R-squared value :  0.513811132529
+```
+*2.6 What does this R2 value mean for the goodness of fit for your regression model? Do you think this linear model to predict ridership is appropriate for this dataset, given this R2 value?*  
+In general 2 basic components of any valid regression model are : 
+* Deterministic Component
+* Stochastic Error Component  
+And we want our model to be good enough to explain deterministic component of the response and none of the predictive information to be present in error term or simply put, error term should be unpredictable. Just by lookin at thr R-squred value we cant tell whether the error term is unpredictable or it is biased. So we plot the residuals.
 ![Image of Residual](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/residual_histo.png)
-![Image of Reidual](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/scatter_residual.png)
+![Image of Reidual](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/scatter_residual.png)  
+From the plot we can see that our residual are normally distributed and centered at zero. Since our error term is random it tells us that our model is good enough to describe deterministic portion of the response. Although the model wont give the exact values but it can give an approximate idea of ENTRIESn_hourly. Also, we know from the statsitical test that rain and fog does affect ridership but this adding them to features does not explain significant variance in the data. So for such case we might need bigger dataset so that model can properly incorporate effect of rain and fog on ridership. Also a non-linear model can be a good choice for such dataset.
