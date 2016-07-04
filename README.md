@@ -132,6 +132,6 @@ Everything that was found during the analysis has already been discussed, if dur
 
 #### References
 
-*[Introduction to data science](https://classroom.udacity.com/courses/ud359/lessons/746169184239847/concepts/last-viewed)  
-*[Introduction to Machine learning by Andrew NG](https://www.coursera.org/learn/machine-learning)  
-*[minitab blog](http://blog.minitab.com/)  
+[Introduction to data science](https://classroom.udacity.com/courses/ud359/lessons/746169184239847/concepts/last-viewed)  
+[Introduction to Machine learning by Andrew NG](https://www.coursera.org/learn/machine-learning)  
+[minitab blog](http://blog.minitab.com/)  
