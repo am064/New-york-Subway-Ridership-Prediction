@@ -114,5 +114,14 @@ The plot has three prominent peaks showing maximum mean Entries in subway. Which
 
 Only the means for Entries when its raining and for when its not raining are not enough to tell us because of the variance in the data. From mann-whitney U-test we can tell with much certainity that the data sets were statistically significant but at the same time rain as a feature does a little bit in improving performance of our linear regression model. So we cant tell yet whether rain affects ridership or not.
 
-*4.2 What analyses lead you to this conclusion? You should use results from both your statistical tests and your linear regression to support your analysis.*
+*4.2 What analyses lead you to this conclusion? You should use results from both your statistical tests and your linear regression to support your analysis.*  
+
 Since, the linear regression model did not use rain as feature. And even after including rain as feature model's performance did not increase much. Both the statistical test and linear regression contradict each other. Also, from the plot of condition and entries in NYC subway(from section 4) we can see that light rain witnesses more mean entries then heavy rain and light drizzle witnessess more mean entries then rain.The data highly depends on demographics of NYC population as well as location of each station. It may happen so, that in certain areas with heavy rainfall subway needs to be closed. In any case we need a more robust prediciting model to incorporate such complexities using information from rain and precipitation to tell wether rain affects ridership or not.
+
+####Section 5 : Reflection
+*5.1 Please discuss potential shortcomings of the methods of your analysis, including: data set, linear regression model, and statistical tests.*
+
+The linera regression model fails to explain high variance in the data, it also fails to take into consideration effect of environmental factors like rain, fog which should intuitievly affect ridership. Also, the analysis was done using only one months data and hence all the conclusion and analysis done can be easily challenged if more data is available. 
+
+*5.2 Do you have any other insight about the dataset that you would like to share with us?*
+
