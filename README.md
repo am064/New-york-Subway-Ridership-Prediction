@@ -102,6 +102,17 @@ Please Refer to Section 1.1.
 
 ![Image of plot1](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/mean_entries_by_time_day.png)
 
-The plot has three prominent peaks showing maximum mean Entries in subway. Which tells us that peak hours are from 11-12 am and in the evening from 4pm-5pm and in the night from 8pm-9pm. Interestingly, for the time between 8am-10am which are generally considered as morning peak hours the rush is less then it is between 11am-12am. And also for evening rush hours have less rush compared to night rush hours.IT would be hard to comment on from the given data as it is just for one month or alternatively it can also tell us the changing working hours and lifestyle of poeple in NYC. Since, an era of flexible working hours have begun most people would prefer to go office late. To comment on above statement with more surity more data is required..
+The plot has three prominent peaks showing maximum mean Entries in subway. Which tells us that peak hours are from 11-12 am and in the evening from 4pm-5pm and in the night from 8pm-9pm. Interestingly, for the time between 8am-10am which are generally considered as morning peak hours the rush is less then it is between 11am-12am. And also for evening rush hours have less rush compared to night rush hours.IT would be hard to comment on from the given data as it is just for one month or alternatively it can also tell us the changing working hours and lifestyle of poeple in NYC. Since, an era of flexible working hours have begun most people would prefer to go office late. To comment on above statement with more surity more data is required.
 
 ![Image of plot2](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/mean_hourly_per_day.png)
+
+![Image of plot3](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/conditions_entries.png)
+
+####Section 4: Conclusion
+
+*4.1 From your analysis and interpretation of the data, do more people ride the NYC subway when it is raining or when it is not raining?*
+
+Only the means for Entries when its raining and for when its not raining are not enough to tell us because of the variance in the data. From mann-whitney U-test we can tell with much certainity that the data sets were statistically significant but at the same time rain as a feature does a little bit in improving performance of our linear regression model. So we cant tell yet whether rain affects ridership or not.
+
+*4.2 What analyses lead you to this conclusion? You should use results from both your statistical tests and your linear regression to support your analysis.*
+Since, the linear regression model did not use rain as feature. And even after including rain as feature model's performance did not increase much. Both the statistical test and linear regression contradict each other. Also, from the plot of condition and entries in NYC subway(from section 4) we can see that light rain witnesses more mean entries then heavy rain and light drizzle witnessess more mean entries then rain.The data highly depends on demographics of NYC population as well as location of each station. It may happen so, that in certain areas with heavy rainfall subway needs to be closed. In any case we need a more robust prediciting model to incorporate such complexities using information from rain and precipitation to tell wether rain affects ridership or not.
