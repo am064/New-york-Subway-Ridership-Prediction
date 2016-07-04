@@ -100,4 +100,8 @@ Please Refer to Section 1.1.
 
 *3.2 Include and describe a freeform visualization.*  
 
+![Image of plot1](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/mean_entries_by_time_day.png)
 
+The plot has three prominent peaks showing maximum mean Entries in subway. Which tells us that peak hours are from 11-12 am and in the evening from 4pm-5pm and in the night from 8pm-9pm. Interestingly, for the time between 8am-10am which are generally considered as morning peak hours the rush is less then it is between 11am-12am. And also for evening rush hours have less rush compared to night rush hours.IT would be hard to comment on from the given data as it is just for one month or alternatively it can also tell us the changing working hours and lifestyle of poeple in NYC. Since, an era of flexible working hours have begun most people would prefer to go office late. To comment on above statement with more surity more data is required..
+
+![Image of plot2](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/mean_hourly_per_day.png)
