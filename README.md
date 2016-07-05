@@ -109,7 +109,11 @@ The plot has three prominent peaks showing maximum mean Entries in subway. Which
 
 ![Image of plot2](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/mean_hourly_per_day.png)
 
-![Image of plot3](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/condition_entries.png)
+![Image of plot3](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/condition_entries.png)  
+
+Also, for the purpose of exploring python plotting toolbox, a 3d plot of Day wise hourly variation of mean entries was plottd as follows :
+
+![Image of 3dplot](https://github.com/am064/New-york-Subway-Ridership-Prediction/blob/master/3d_graph.png)
 
 ####Section 4: Conclusion
 
